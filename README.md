@@ -22,15 +22,15 @@ End the program and close the output image windows.
 ### Developed By:S.HarishKumar
 ### Register Number:212221230104
 i) #To Read,display the image
-```
+
   import cv2
 color_img=cv2.imread('r.png',1)
 cv2.imshow('21221230104,S.HarishKumar',color_img)
 cv2.waitKey(0)
 
-```
+
 ii) #To write the image
-```
+
 import cv2
 color_img=cv2.imread('r.png',1)
 w=cv2.imwrite('1.png',color_img)
@@ -38,19 +38,19 @@ cv2.imshow('21221230104,S.HarishKumar',color_img)
 cv2.waitKey(0)
 
 
-```
+
 iii) #Find the shape of the Image
-```python3
+
 import cv2
 colorImage = cv2.imread('r.png',1)
 print(colorImage.shape)
 
 
 
-```
+
 iv) #To access rows and columns
 
-```python3
+
 import cv2
 import random
 color_img=cv2.imread('r.png',1)
@@ -61,9 +61,9 @@ cv2.imshow('21221230104,S.HarishKumar',color_img)
 cv2.waitKey(0)
 
 
-```
+
 v) #To cut and paste portion of image
-```python3
+
 import cv2
 color_img = cv2.imread('r.png',1)
 tag = color_img[20:80,20:80]
@@ -73,7 +73,7 @@ cv2.waitKey(0)
 
 
 
-```
+
 
 ## Output:
 
